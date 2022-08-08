@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="main.js" defer></script>
+    <title>Visualizing the Data 2</title>
+</head>
+<body>
+    <h1 id="title">Random User Information</h1>
+    <div id="user_content">
+        <div id="user_preview">
+            <img
+                id="user_img"
+                src=""
+            />
+        </div>
+        <div id="user_stats">
+            <div id="first"></div>
+            <div id="last"></div>
+            <div id="gender"></div>
+            <div id="age"></div>
+            <div id="address"></div>
+            <div id="email"></div>
+            <div id="number"></div>
+        </div>
+    </div>
+
+    <form id="user_form">
+        <div id="info_list">
+
+            <div class="radio_container">
+               <input type="radio" name="info" value="first"/>
+               <label>First Name</label>
+            </div>
+
+            <div class="radio_container">
+                <input type="radio" name="info" value="last"/>
+                <label>Last Name</label>
+             </div>
+
+             <div class="radio_container">
+                <input type="radio" name="info" value="gender"/>
+                <label>Gender</label>
+             </div>
+
+             <div class="radio_container">
+                <input type="radio" name="info" value="all"/>
+                <label>All Info</label>
+             </div>
+        </div>
+
+        <button id="random_btn">Random User</button>
+    </form>
+</body>
+</html>
